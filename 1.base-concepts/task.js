@@ -8,8 +8,7 @@ function solveEquation(a, b, c) {
     } else if (discriminant > 0) {
         arr = [(-b + Math.sqrt(discriminant)) / (2 * a), (-b - Math.sqrt(discriminant)) / (2 * a)]
     }
-    // код для задачи №1 писать здесь
-    return arr; // array
+    return arr;
 }
 
 function calculateTotalMortgage(percent, contribution, amount, date) {
